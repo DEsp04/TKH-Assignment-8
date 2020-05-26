@@ -1,0 +1,111 @@
+body {
+	font-family: Geneva, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+  margin: 0;
+}
+
+header {
+  background-color: gray;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  padding-left: 3%;
+  padding-top: 1%;
+  font-weight: 600;
+  color: #22c7ef;
+  cursor: default;
+  -webkit-text-stroke: 0.09px black;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-bottom: 3%;
+}
+
+nav ul li {
+  padding:  0 5%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFCC00;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+nav ul li a:hover {
+  color: #f78025;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+#about_me {
+  width: 40%;
+  padding: 15% 2% 5% 1%;
+  padding-right: 2%;
+  padding-left: 1%;
+}
+
+#social_media {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#social_media li {
+  padding: 0 2%;
+}
+
+.fa-facebook {
+	color: #4267B2;
+
+}
+
+.fa-twitter {
+	color: #38A1F3;
+}
+
+.fa-instagram {
+	color: #231F20;
+
+}
+
+.fa-youtube {
+	color: #ED3833;
+
+}
+
+.fa-phone-alt {
+	color: #ff375a;
+}
+
+.fa-map-marker-alt {
+	color: #ff375a;
+}
+
+.sm {
+	transition: transform .2s; 
+}
+
+.sm:hover {
+	transform: scale(1.5);
+}
